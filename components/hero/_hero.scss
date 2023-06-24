@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 100%;
   }
@@ -6,7 +6,7 @@
   .hero {
     display: block;
     justify-content: center;
-    max-width: 1180px;
+    max-width: 770px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../../images/Hero.jpg");
