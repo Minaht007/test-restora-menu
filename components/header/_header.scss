@@ -1,5 +1,30 @@
 .logo {
+  width: 100px;
+
+  padding: 15px 15px;
+}
+
+.header {
+  display: flex;
+}
+.headerTitle {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+headerList {
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px 0;
+}
+.headerList:not(:last-child) {
+  margin-right: 30px;
+}
+
+.headerLink {
   display: block;
-  width: 200px;
-  height: 200px;
+  text-decoration: none;
 }

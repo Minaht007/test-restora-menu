@@ -1,0 +1,123 @@
+$main-secondary-color: #757575;
+$main-color: #212121;
+$main-backg-color: #ffffff;
+$hover-color: #2196f3;
+$heder-backg-color: #2f303a;
+$main-section-color: #e5e5e5;
+$secondary-section-color: #f5f4fa;
+$main-btn-color: #188ce8;
+$border-line: #ececec;
+$contact-footer: rgba(255, 255, 255, 0.6);
+$border-color: #eeeeee;
+$client-color: #afb1b8;
+$animation-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$backdrop-bg: rgba(0, 0, 0, 0.2);
+
+// fonts
+
+$font-bolt: 700;
+
+// card set
+
+$item: 4;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $main-color;
+  letter-spacing: 0.03em;
+  background-color: $main-backg-color;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Hide-titles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ---------------------------Списки----------------- */
+list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* ------------------------ IMAGE --------------------*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------------Containers ------------------*/
+
+.container {
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+/*--------------- section ----------------------*/
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+/* -------------------------LINKS decor------------------*/
+
+.link-decor {
+  text-decoration: none;
+}
+
+.section-hero {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
