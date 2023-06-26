@@ -19,5 +19,6 @@ bgImage.onload = function () {
   const bgbane = document.querySelector(".bgbane");
   bgbane.style.position = "relative";
   bgbane.style.overflow = "hidden";
+  bgbane.style.zIndex = 5;
   bgbane.appendChild(bgImage);
 };

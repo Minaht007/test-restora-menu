@@ -342,6 +342,6 @@ img {
   margin-right: auto;
 }
 
-.textaboutUs {
-  background-position: url();
+.bgbaner {
+  z-index: 5;
 }/*# sourceMappingURL=main.css.map */
