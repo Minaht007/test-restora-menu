@@ -1,6 +1,6 @@
 $main-secondary-color: #757575;
 $main-color: #212121;
-$main-backg-color: #ffffff;
+$main-backg-color: #fbf0df;
 $hover-color: #2196f3;
 $heder-backg-color: #2f303a;
 $main-section-color: #e5e5e5;
@@ -22,12 +22,13 @@ $font-bolt: 700;
 $item: 4;
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: $main-color;
   letter-spacing: 0.03em;
   background-color: $main-backg-color;
   font-size: 14px;
   font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,

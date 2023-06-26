@@ -1,0 +1,15 @@
+@import "../../utilits/vars.scss";
+
+.footer {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: $contact-footer;
+}
