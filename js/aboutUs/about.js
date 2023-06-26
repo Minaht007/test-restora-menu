@@ -16,9 +16,9 @@ bgImage.onload = function () {
   bgImage.style.height = viewportHeight + "px";
   bgImage.style.objectFit = "cover";
 
-  const bgbane = document.querySelector(".bgbane");
-  bgbane.style.position = "relative";
-  bgbane.style.overflow = "hidden";
-  bgbane.style.zIndex = 0;
-  bgbane.appendChild(bgImage);
+  const bgbaner = document.querySelector(".bgbaner");
+  bgbaner.style.position = "relative";
+  bgbaner.style.overflow = "hidden";
+
+  bgbaner.appendChild(bgImage);
 };
