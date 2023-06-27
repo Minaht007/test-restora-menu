@@ -1,8 +1,10 @@
-const openModalBtn = document.querySelector(".open__modal");
+const openModalBtn = document.querySelectorAll(".open__modal");
 const modal = document.querySelector(".modal-dialog");
 
-openModalBtn.addEventListener("click", () => {
-  modal.style.display = "block";
+openModalBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modal.style.display = "block";
+  });
 });
 
 const closeModalBtm = document.querySelector(".close__modal");
