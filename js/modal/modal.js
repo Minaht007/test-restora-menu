@@ -2,6 +2,7 @@ const openModalBtn = document.querySelector(".open__modal");
 const modal = document.querySelector(".modal-dialog");
 
 openModalBtn.addEventListener("click", () => {
+  console.log("open");
   modal.showModal();
 });
 
@@ -10,6 +11,12 @@ closeModalBtm.addEventListener("click", () => {
   console.log("closeModalBtm clicked");
   modal.close();
 });
+
+// document.addEventListener("click", (e) => {
+//   if (e.target.closest('[data-toggle="modal"]')) {
+//     modal.show();
+//   }
+// });
 
 // // Get the dialog element
 // const dialog = document.querySelector("dialog");
