@@ -10,6 +10,8 @@ closeModalBtm.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
+modal.style.display = "none";
+
 // ++++++++++++++++
 // МОЄ
 // const openModalBtn = document.querySelector(".open__modal");
