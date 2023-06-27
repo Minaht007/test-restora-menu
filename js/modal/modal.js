@@ -2,13 +2,11 @@ const openModalBtn = document.querySelector(".open__modal");
 const modal = document.querySelector(".modal-dialog");
 
 openModalBtn.addEventListener("click", () => {
-  console.log("open");
   modal.showModal();
 });
 
 const closeModalBtm = document.querySelector(".close__modal");
 closeModalBtm.addEventListener("click", () => {
-  console.log("closeModalBtm clicked");
   modal.close();
 });
 
