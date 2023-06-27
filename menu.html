@@ -40,24 +40,107 @@
           </li>
         </ul>        
     </header>
+
     <main>
       <section class="container">
-        <div class="mc">
-          <h2 class="menuLogo">FOOD SPECIAL FOR YOU</h2>
-          <div class="mc">
-            <div class="imageContainer">
-              <img class="bgimage" src="./images/bg-menu.jpg" />
-              <span class="menulist">Greek salad <br> green salad, olive oil, white cheese, curly walnuts</span>
-              <p class="menulist"></p>
-            </div>
-            
-          </div>
-        </div>
+        
       </section>
 </main>
-    
+    <ul class="menu__list">
+      <li class="menu__items">
+        <a class="menu__link" href="">
+          <div>
+            <img class="dishes__img open__modal" 
+            src="./images/burger.jpg" alt="burger" 
+            width="400px" height="400px">
+            <p>
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          <dialog class="modal-dialog"> 
+            <form class="modal-container">
+              <label for="name">Name:</label>
+              <input class="input__area" type="text" id="name" name="name" required width="100%S">
+          
+              <label for="phone">Phone:</label>
+              <input class="input__area" type="tel" id="phone" name="phone" required>
+          
+              <label for="email">Email:</label>
+              <input class="input__area" type="email" id="email" name="email" required>
+              <label  for="comments">Comments:</label>
+              <textarea class="input__area" id="comments" name="comments"></textarea>
+          
+              
+            </form>
+            <button class="close__modal" type="submit">Send</button>
+          </dialog>
+         
+        </a>        
+      </li>
+
+      <li class="menu__items">
+        <a class="menu__img" href="">
+          <div class="overlay">
+            <img class="dishes__img" src="./images/meet.jpg" alt="" width="400px" height="400px">
+            <p class="class="overlay__text">
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          <button type="submit">Oder</button>
+        </a>        
+      </li>
+
+      <li class="menu__items">
+        <a class="menu__img" href="">
+          <div class="overlay">
+            <img class="dishes__img" src="./images/pasta.jpg" alt="" width="400px" height="400px">
+            <p class="class="overlay__text">
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          <button type="submit">Oder</button>
+        </a>        
+      </li>
+
+      <li class="menu__items">
+        <a class="menu__img" href="">
+          <div class="overlay">
+            <img class="dishes__img" src="./images/salat.jpg" alt="" width="400px" height="400px">
+            <p class="class="overlay__text">
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          <button type="submit">Oder</button>
+        </a>        
+      </li>
+
+      <li class="menu__items">
+        <a class="menu__img" href="">
+          <div class="overlay">
+            <img class="dishes__img" src="./images/sendwich.jpg" alt="" width="400px" height="400px">
+            <p class="class="overlay__text">
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          <button type="submit">Oder</button>
+        </a>        
+      </li>
+
+      <li class="menu__items">
+        <a class="menu__img" href="">
+          <div class="overlay">
+            <img class="dishes__img" src="./images/desert.jpg" alt="" width="400px" height="400px">
+            <p class="class="overlay__text">
+            It's a king burger for real gurman. If you one time taste it? and never want burger in other place
+            </p>
+          </div>
+          
+        </a>        
+      </li>
+    </ul>
     <footer class="footer container">
         <button class="button">Call us</button>
       </footer>
+      <script src="./js/madal/modal.js"></script>
   </body>
 </html>
