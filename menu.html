@@ -47,8 +47,7 @@
       </section>
 </main>
     <ul class="menu__list">
-      <li class="menu__items">
-       
+      <li class="menu__items">       
           <div>
             <img class="dishes__img open__modal" 
             src="./images/burger.jpg" alt="burger" 
@@ -56,24 +55,8 @@
             <p>
             It's a king burger for real gurman. If you one time taste it? and never want burger in other place
             </p>
-          </div>
-          <dialog class="modal-dialog"> 
-            <form class="modal-container">
-              <label for="name">Name:</label>
-              <input class="input__area" type="text" id="name" name="name" required width="100%S">
-          
-              <label for="phone">Phone:</label>
-              <input class="input__area" type="tel" id="phone" name="phone" required>
-          
-              <label for="email">Email:</label>
-              <input class="input__area" type="email" id="email" name="email" required>
-              <label  for="comments">Comments:</label>
-              <textarea class="input__area" id="comments" name="comments"></textarea>              
-            </form>
-            <button data-togle="modal" class="close__modal" type="submit">Send</button>
-          </dialog>
-         
-      
+          </div>    
+
       </li>
 
       <li class="menu__items">
@@ -139,6 +122,25 @@
     <footer class="footer container">
         <button class="button">Call us</button>
       </footer>
+
+      <!-- Modal Window -->
+ <dialog class="modal-dialog is-hidden"> 
+            <form class="modal-container">
+              <label for="name">Name:</label>
+              <input class="input__area" type="text" id="name" name="name" required width="100%S">
+          
+              <label for="phone">Phone:</label>
+              <input class="input__area" type="tel" id="phone" name="phone" required>
+          
+              <label for="email">Email:</label>
+              <input class="input__area" type="email" id="email" name="email" required>
+              <label  for="comments">Comments:</label>
+              <textarea class="input__area" id="comments" name="comments"></textarea>              
+            </form>
+            <button data-togle="modal" class="close__modal" type="submit">Send</button>
+          </dialog>
+
+
       <script src="./js/modal/modal.js"></script>
   </body>
 </html>

@@ -30,6 +30,18 @@
   padding: 40px 20px;
   border: 1px solid;
   border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1);
+  overflow: scroll;
+
+  opacity: 1;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-dialog.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-container input,
