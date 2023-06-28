@@ -1,10 +1,12 @@
 @import "../../utilits/vars.scss";
 
 .footer {
+  position: relative;
   display: flex;
   margin-top: 60px;
   justify-content: center;
   align-items: center;
+  height: 250px;
 }
 
 .button {

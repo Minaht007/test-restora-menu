@@ -14,23 +14,34 @@ closeModalBtm.addEventListener("click", () => {
 
 modal.style.display = "none";
 
-// ++++++++++++++++
-// МОЄ
-// const openModalBtn = document.querySelector(".open__modal");
-// const modal = document.querySelector(".modal-dialog");
+const form = document.querySelector(".modal-container");
 
-// openModalBtn.addEventListener("click", () => {
-//   modal.showModal();
-// });
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-// const closeModalBtm = document.querySelector(".close__modal");
-// closeModalBtm.addEventListener("click", () => {
-//   modal.close();
-// });
+  // Получаем значения полей формы
+  const name = document.querySelector("#name").value;
+  const phone = document.querySelector("#phone").value;
+  const email = document.querySelector("#email").value;
+  const comments = document.querySelector("#comments").value;
 
-// document.addEventListener("click", (e) => {
-//   if (e.target.closest('[data-toggle="modal"]')) {
-//     modal.show();
-//   }
-// });
-// кінець мо
+  // Создаем объект с данными формы
+  const formData = {
+    name: name,
+    phone: phone,
+    email: email,
+    comments: comments,
+  };
+
+  // Сохраняем данные в локальное хранилище
+  localStorage.setItem("formData", JSON.stringify(formData));
+  console.log(localStorage);
+  // Отображаем сообщение об успешной отправке
+  alert("Данные успешно отправлены!");
+
+  // Сбрасываем значения полей формы
+  form.reset();
+  modal.style.display = "none";
+});
+
+modal.style.display = "none";
