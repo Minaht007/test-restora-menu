@@ -474,7 +474,7 @@ img {
 
 .dishes__img {
   display: block;
-  border: 1px solid;
+  border: 1px solid rgb(210, 175, 0);
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
