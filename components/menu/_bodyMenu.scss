@@ -54,19 +54,38 @@
   aspect-ratio: 1/1;
 }
 
-.modal-dialog {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 500px;
-  padding: 40px 20px;
-  border: none;
-  border-radius: 8px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(195, 221, 243);
+@media screen and (max-width: 599px) {
+  .modal-dialog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    padding: 40px 20px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(195, 221, 243);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .modal-dialog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    padding: 40px 20px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(195, 221, 243);
+  }
 }
 
 .modal-container input,
