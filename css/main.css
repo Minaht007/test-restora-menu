@@ -505,6 +505,29 @@ img {
             transform: translate(-50%, -50%);
     background-color: rgb(195, 221, 243);
   }
+  .modal-container input,
+  .modal-container textarea {
+    display: block;
+  }
+  .modal-container input {
+    margin-bottom: 20px;
+  }
+  .input__area {
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .close__modal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #fbf0df;
+    border: none;
+    -webkit-box-shadow: -4px -10px 6px #757575;
+            box-shadow: -4px -10px 6px #757575;
+  }
 }
 @media screen and (min-width: 600px) {
   .modal-dialog {
@@ -517,7 +540,8 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 500px;
+    width: 70%;
+    max-width: 500px;
     padding: 40px 20px;
     border: none;
     border-radius: 8px;
@@ -528,34 +552,30 @@ img {
             transform: translate(-50%, -50%);
     background-color: rgb(195, 221, 243);
   }
+  .modal-container input,
+  .modal-container textarea {
+    display: block;
+  }
+  .modal-container input {
+    margin-bottom: 20px;
+  }
+  .input__area {
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .close__modal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #fbf0df;
+    border: none;
+    -webkit-box-shadow: -4px -10px 6px #757575;
+            box-shadow: -4px -10px 6px #757575;
+  }
 }
-.modal-container input,
-.modal-container textarea {
-  display: block;
-}
-
-.modal-container input {
-  margin-bottom: 20px;
-}
-
-.input__area {
-  height: 40px;
-  width: 100%;
-  padding-left: 15px;
-}
-
-.close__modal {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 10px 15px;
-  background-color: #fbf0df;
-  border: none;
-  -webkit-box-shadow: -4px -10px 6px #757575;
-          box-shadow: -4px -10px 6px #757575;
-}
-
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
