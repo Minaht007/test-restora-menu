@@ -60,12 +60,13 @@
   flex-direction: column;
   width: 500px;
   padding: 40px 20px;
-  border: 1px solid;
-  border-radius: 4px;
+  border: none;
+  border-radius: 8px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgb(195, 221, 243);
 }
 
 .modal-container input,
@@ -78,7 +79,9 @@
 }
 
 .input__area {
+  height: 40px;
   width: 100%;
+  padding-left: 15px;
 }
 
 .close__modal {
@@ -88,4 +91,6 @@
   margin-top: 20px;
   padding: 10px 15px;
   background-color: $main-backg-color;
+  border: none;
+  box-shadow: -4px -10px 6px #757575;
 }
